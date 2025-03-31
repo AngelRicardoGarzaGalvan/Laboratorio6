@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar personalizado */
+  .navbar-custom {
+    background-color: #343a40;
+  }
+  
+  .navbar-custom .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #ffc107;
+  }
+  
+  /* Encabezados y párrafos centrados */
+  h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #495057;
+  }
+  
+  /* Imagenes: bordes redondeados, sombra y efecto hover */
+  img {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Tarjetas sin borde y con sombra sutil */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilos para el acordeón */
+  .accordion-button {
+    background-color: #e9ecef;
+    color: #495057;
+  }
+  
+  /* Modal: encabezado oscuro */
+  .modal-header {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
